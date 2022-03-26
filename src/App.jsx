@@ -2,7 +2,7 @@ import './App.css'
 import TopNavbar from './components/navbar'
 import Sidenav from './components/sidenav'
 import './assets/styles/global.css';
-import chartBoxContainer from './components/chartBox';
+import ChartBoxContainer from "./components/chartBox"
 
 
 function App() {
@@ -12,7 +12,8 @@ function App() {
       <TopNavbar />
       <Sidenav />
 
-      <chartBoxContainer />
+      <ChartBoxContainer />
+      
     </>
   )
 }

@@ -1,8 +1,76 @@
+@import "./global.css";
+
 .mainContent {
   position: absolute;
   margin-left: 135px;
   margin-top: 50px;
   width: calc(100vw - 168px);
   height: 100%;
-  padding: 10px;
+  padding: 1em;
+}
+
+/* Efficiency Tab Panel Header */
+.tabList {
+  border-bottom: 1px solid var(--primary-color);
+  padding: 0;
+  font-size: var(--x-small-font);
+  color: var(--primary-color);
+}
+
+.tabpanelHeader {
+  display: flex;
+  flex-direction: row;
+  gap: 4em;
+  justify-content: stretch;
+  align-items: stretch;
+  width: 100%;
+}
+
+.tpanelTitle {
+  font-size: var(--large-font);
+  font-weight: bold;
+  color: var(--text-black);
+  width: max-content;
+}
+
+.tpanelSearchWrapper {
+}
+
+.tpanelSearch {
+  border-radius: 4px;
+  border: 1.5px solid var(--google-grey);
+  font-size: var(--x-small-font);
+  padding: 0.7em 2em;
+  min-width: 200px;
+  max-width: 250px;
+}
+
+.tpanelBtn {
+  background-color: var(--green-bg);
+  padding: 0.9em 1.5em;
+  border-radius: 4px;
+  border: none;
+  color: #fff;
+  font-size: var(--x-small-font);
+}
+
+.tpanelRow {
+  display: flex;
+  flex-direction: row;
+  gap: 1em;
+  align-items: center;
+  width: 100%;
+}
+
+.tpanelRowOne {
+}
+
+.selectOption {
+  border: 1.5px solid var(--google-grey);
+  border-radius: 3px;
+  font-size: var(--x-small-font);
+  color: var(--text-black);
+  padding: 0.5em 2em;
+  font-weight: bold;
+  cursor: pointer;
 }
