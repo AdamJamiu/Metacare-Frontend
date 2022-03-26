@@ -1,0 +1,70 @@
+@import "../styles/global.css";
+
+.navbar {
+  background-color: #fff;
+  position: fixed;
+  width: calc(100vw - 168px);
+  left: 135px;
+  z-index: 10;
+  height: 30px;
+  padding: 8px 10px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #ecebf5;
+}
+
+.navSearch {
+  background-color: #fafafc;
+  border: none;
+  border-radius: 5px;
+  height: 27px;
+  font-size: 10px;
+  color: #a3a3c2;
+  width: 220px;
+  padding: 0.1em 1em;
+  position: relative;
+}
+.searchWrapper {
+  position: relative;
+}
+.searchIcon {
+  position: absolute;
+  right: 15px;
+  top: 7px;
+}
+
+.avatarSide {
+  display: flex;
+}
+
+.iconWrap {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border: 1px solid #ecebf5;
+  padding: 1em;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.notificationSide {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  cursor: pointer;
+  gap: 0.2em;
+  border-right: 1px solid #ecebf5;
+  padding-right: 0.5em;
+}
+
+.avatarSide {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.5em;
+  cursor: pointer;
+}
+
+.circle {
+  padding-left: 0.5em;
+}

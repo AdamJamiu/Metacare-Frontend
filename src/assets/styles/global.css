@@ -1,0 +1,24 @@
+/* * {
+  box-sizing: border-box;
+} */
+
+:root {
+  --sidenav--width: 70px;
+  --search-bg-color: #fafafc;
+  --nav-border-color: #ecebf5;
+  --sideNav-hover-color: #6837ef;
+  --primary-color: #696d8c;
+
+  --x-small-font: 9px;
+  --xx-small-font: 10px;
+  --medium-font: 12px;
+  --large-font: 14px;
+  --x-large-font: 16px;
+  --xx-large-font: 18px;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+}

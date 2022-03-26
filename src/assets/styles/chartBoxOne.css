@@ -1,0 +1,8 @@
+.mainContent {
+  position: absolute;
+  margin-left: 135px;
+  margin-top: 50px;
+  width: calc(100vw - 168px);
+  height: 100%;
+  padding: 10px;
+}
