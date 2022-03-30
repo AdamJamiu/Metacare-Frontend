@@ -3,12 +3,12 @@
 .sidenavContainer {
   width: var(--sidenav--width);
   /* background-color: red; */
-  width: 115px;
   border-right: 1px solid var(--nav-border-color);
   left: 0;
   position: fixed;
   height: 100%;
   padding: 10px;
+  background-color: #fff;
   z-index: 11;
 }
 
@@ -16,23 +16,25 @@
   font-weight: bold;
   font-size: 11px;
   line-height: 0;
-  font-size: 9px;
+  font-size: var(--medium-font);
 }
 
 .adminMail {
-  font-size: 10px;
+  font-weight: 400;
+  font-size: var(--medium-font);
   color: var(--sideNav-hover-color);
 }
 
 .accountWrapper {
   border: 1px solid var(--nav-border-color);
   border-radius: 4px;
-  padding: 0.5em 0;
+  padding: 1em;
 }
 
 .adminMail {
-  font-size: 9px;
+  font-size: var(--medium-font);
   line-height: 1;
+  font-weight: 500;
   color: var(--primary-color);
 }
 
@@ -58,7 +60,9 @@
 }
 
 .sideNavText {
-  font-size: 10px;
+  font-weight: 500;
+  font-size: var(--medium-font);
   min-width: max-content;
   color: var(--primary-color);
 }
+

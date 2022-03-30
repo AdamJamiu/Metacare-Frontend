@@ -10,20 +10,23 @@ function TopNavbar() {
     return (
         <>
             <div className='navbar'>
+                <div className='hamburger'>
+                    Ha
+                </div>
                 <div className='searchWrapper'>
                     <input className='navSearch' type="text" placeholder='Ask us any question' />
-                    <img src={searchIcon} height="15px" className='searchIcon' alt="searchIcon" />
+                    <img src={searchIcon} height="20px" className='searchIcon' alt="searchIcon" />
                 </div>
 
                 <div className='iconWrap'>
                     <div className='notificationSide'>
-                        <img src={notificationIcon} height='15px' alt='notificationImage' />
-                        <img src={error} alt='error' height='12px' />
+                        <img src={notificationIcon} height='25px' alt='notificationImage' />
+                        <img src={error} alt='error' height='20px' />
                     </div>
 
                     <div className='avatarSide'>
-                        <img src={circle} height="15px" className='circle' alt='notificationImage' />
-                        <img src={arrowDown} height="4px" className='arrowDown' alt='arrowDown' />
+                        <img src={circle} height="25px" className='circle' alt='notificationImage' />
+                        <img src={arrowDown} height="5px" className='arrowDown' alt='arrowDown' />
                     </div>
                 </div>
             </div>
@@ -32,4 +35,4 @@ function TopNavbar() {
     )
 }
 
-export default TopNavbar
+export default TopNavbar;

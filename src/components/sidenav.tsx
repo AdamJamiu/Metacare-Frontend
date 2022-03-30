@@ -19,39 +19,39 @@ function Sidenav() {
 
         <div className='sideNavLinksWrapper'>
           <div className='sideNavLink'>
-            <img src={admin} height='10px' alt='adminIcon' className='sideNavIcon' />
+            <img src={admin} height='15px' alt='adminIcon' className='sideNavIcon' />
             <p className='sideNavText'>Admin</p>
-            <img src={rightArrow} height='10px' alt='adminIcon' className='rightArrow' />
+            <img src={rightArrow} height='15px' alt='adminIcon' className='rightArrow' />
           </div>
 
           <div className='sideNavLink'>
-            <img src={knowledge} height='10px' alt='adminIcon' className='sideNavIcon' />
+            <img src={knowledge} height='15px' alt='adminIcon' className='sideNavIcon' />
             <p className='sideNavText'>Knowledge Base</p>
-            <img src={rightArrow} height='10px' alt='adminIcon' className='rightArrow' />
+            <img src={rightArrow} height='15px' alt='adminIcon' className='rightArrow' />
           </div>
 
           <div className='sideNavLink'>
-            <img src={knowledge} height='10px' alt='adminIcon' className='sideNavIcon' />
+            <img src={knowledge} height='15px' alt='adminIcon' className='sideNavIcon' />
             <p className='sideNavText'>Train SAM</p>
-            <img src={rightArrow} height='10px' alt='adminIcon' className='rightArrow' />
+            <img src={rightArrow} height='15px' alt='adminIcon' className='rightArrow' />
           </div>
 
           <div className='sideNavLink'>
-            <img src={agentInbox} height='10px' alt='adminIcon' className='sideNavIcon' />
+            <img src={agentInbox} height='15px' alt='adminIcon' className='sideNavIcon' />
             <p className='sideNavText'>Agent Inbox</p>
-            <img src={rightArrow} height='10px' alt='adminIcon' className='rightArrow' />
+            <img src={rightArrow} height='15px' alt='adminIcon' className='rightArrow' />
           </div>
 
           <div className='sideNavLink'>
-            <img src={helpCenter} height='10px' alt='adminIcon' className='sideNavIcon' />
+            <img src={helpCenter} height='15px' alt='adminIcon' className='sideNavIcon' />
             <p className='sideNavText'>Help Center</p>
-            <img src={rightArrow} height='10px' alt='adminIcon' className='rightArrow' />
+            <img src={rightArrow} height='15px' alt='adminIcon' className='rightArrow' />
           </div>
 
           <div className='sideNavLink'>
-            <img src={analytics} height='10px' alt='adminIcon' className='sideNavIcon' />
+            <img src={analytics} height='15px' alt='adminIcon' className='sideNavIcon' />
             <p className='sideNavText'>Analytics</p>
-            <img src={rightArrow} height='10px' alt='adminIcon' className='rightArrow' />
+            <img src={rightArrow} height='15px' alt='adminIcon' className='rightArrow' />
           </div>
         </div>
       </div>
