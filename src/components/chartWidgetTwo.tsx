@@ -1,18 +1,18 @@
 import calendar from "../assets/images/calendar.svg";
-import { LineChart } from "./charts/chartOne";
+import { LineChartTwo } from "./charts/chartTwo";
 
-export default function ChartWidgetOne() {
+export default function ChartWidgetTwo() {
   return (
     <>
       <div className="chartWidget">
         <div className="chartSide">
           <ChartHeader />
-          <LineChart />
+          <LineChartTwo />
         </div>
 
         <div className="timeCardWrap">
           <div className="timeCard">
-            <p className="timeText">Average Response Time</p>
+            <p className="timeText">Replies per resolution</p>
             <p className="timeMins">30 Mins</p>
           </div>
           <div className="timeCard">
@@ -35,7 +35,7 @@ const ChartHeader = () => {
         </div>
         <div className="chartHeaderRow">
           <div className="highPrior">
-            <span className="dot1"> </span>
+            <span className="dot2"> </span>
             <p className="tabXSmallText">High Priority</p>
           </div>
 

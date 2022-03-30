@@ -1,4 +1,3 @@
-import React from "react";
 import {
   Chart as ChartJS,
   CategoryScale,
@@ -43,13 +42,13 @@ export const data = {
   datasets: [
     {
       data: labels.map(() => faker.datatype.number({ min: 10, max: 50 })),
-      borderColor: "#F05D23",
+      borderColor: "#3E68FF",
       backgroundColor: "#fff",
     },
   ],
 };
 
-export function LineChart() {
+export function LineChartTwo() {
   return (
     <div className="chartContainer">
       <Line options={options} data={data} />

@@ -43,13 +43,13 @@ export const data = {
   datasets: [
     {
       data: labels.map(() => faker.datatype.number({ min: 10, max: 50 })),
-      borderColor: "#F05D23",
+      borderColor: "#FB6491",
       backgroundColor: "#fff",
     },
   ],
 };
 
-export function LineChart() {
+export function LineChartThree() {
   return (
     <div className="chartContainer">
       <Line options={options} data={data} />

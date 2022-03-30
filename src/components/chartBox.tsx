@@ -1,31 +1,19 @@
-import React from "react";
 import "../assets/styles/chartBoxOne.css";
 import { LineChart } from "./charts/chartOne";
 import calendar from "../assets/images/calendar.svg";
 import searchIcon from "../assets/images/searchIcon.svg";
+import ChartWidgetTwo from "./chartWidgetTwo";
+import ChartWidgetOne from "./chartWidget";
+import ChartWidgetThree from "./chartWidgetThree";
 
 export default function ChartBoxContainer() {
   return (
     <>
       <div>
         <Efficiency />
-        <div className="chartWidget">
-          <div className="chartSide">
-            <ChartHeader />
-            <LineChart />
-          </div>
-
-          <div className="timeCardWrap">
-            <div className="timeCard">
-              <p className="timeText">Average Response Time</p>
-              <p className="timeMins">30 Mins</p>
-            </div>
-            <div className="timeCard">
-              <p className="timeText">Responsive Time</p>
-              <p className="timeMins">1 Hours 30 Mins</p>
-            </div>
-          </div>
-        </div>
+        <ChartWidgetOne />
+        <ChartWidgetTwo />
+        <ChartWidgetThree />
       </div>
     </>
   );

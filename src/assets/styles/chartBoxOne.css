@@ -83,7 +83,7 @@
 
 .tpanelBtn {
   background-color: var(--green-bg);
-  padding: 0.9em 1.5em;
+  padding: 0.7em 1.5em;
   border-radius: 4px;
   border: none;
   cursor: pointer;
@@ -94,7 +94,7 @@
 .tpanelRow {
   display: flex;
   flex-direction: row;
-  gap: 3em;
+  gap: 2em;
   align-items: center;
   justify-content: space-between;
   width: max-content;
@@ -108,14 +108,14 @@
   border-radius: 3px;
   font-size: var(--small-font);
   color: var(--text-black);
-  padding: 1em;
+  padding: 0.7em;
   font-weight: bold;
   cursor: pointer;
 }
 
 .filterWrapper {
   border-right: 1px solid var(--google-grey);
-  padding-right: 1em;
+  padding-right: .7em 1em;
 }
 
 .chartWidget{
@@ -126,7 +126,7 @@
   width: fit-content;
   justify-content: center;
   align-items: center;
-  padding: 1em;
+  /* padding: 1em; */
   border: 1px solid var(--google-grey);
 }
 
@@ -140,9 +140,14 @@ align-items: center;
 gap: 1em;
 }
 
+.chartSide{
+  border-right: 1px solid var(--google-grey);
+  padding: 1em;
+}
+
 .chartHeaderContainer{
   display: flex;
-  align-self: center;
+  align-items: center;
   color: var(--text-black);
   justify-content: space-between;
   width: 100%;
@@ -164,6 +169,12 @@ font-size: var(--small-font);
 .dot2{
   padding: .5em;
   background-color: blue;
+  border-radius: 4px;
+}
+
+.dot3{
+  padding: .5em;
+  background-color: #FB6491;
   border-radius: 4px;
 }
 
@@ -198,7 +209,7 @@ margin: 0;
 .calendarWrap{
   display: flex;
   flex-direction: row;
-  gap: 1em;
+  gap: 2em;
   border: 1px solid var(--google-grey);
   padding: .3em 1em;
   border-radius: 7px;
@@ -214,26 +225,27 @@ margin: 0;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center  ;
+  justify-content: center;
   gap: 1em;
+  padding-right: 1em;
 }
 
 .timeCard{
   background-color: var(--nav-border-color);
   border-radius: 7px;
-  padding: .5em 1em;
-  border: 1px solid var(--google-grey);
+  padding: 1em;
+  border: 1.5px solid var(--google-grey);
   width: 150px;
 }
 
 .timeText{
   color: var(--primary-color);
   width: max-content;
-  font-size: var(--x-small-font);
+  font-size: var(--small-font);
 }
 
 .timeMins{
   color: var(--text-black);
-  font-size: var(--small-font);
+  font-size: var(--large-font);
   font-weight: bolder;
 }
