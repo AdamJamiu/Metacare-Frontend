@@ -1,4 +1,4 @@
-import React from "react";
+import { useState } from "react";
 import "../assets/styles/sidenav.css";
 
 import admin from "../assets/images/admin.svg";
@@ -9,6 +9,7 @@ import analytics from "../assets/images/analytics.svg";
 import rightArrow from "../assets/images/rightArrow.svg";
 
 function Sidenav() {
+  const [isActive, setActive] = useState(false);
   return (
     <div className="sidenavContainer">
       <div className="sideNavWrapper">
@@ -48,15 +49,14 @@ function Sidenav() {
                 className="sideNavIcon"
               />
               <p className="sideNavText">Knowledge Base</p>
-              </div>
-              <div>
-
+            </div>
+            <div>
               <img
                 src={rightArrow}
                 height="12px"
                 alt="adminIcon"
                 className="rightArrow"
-                />
+              />
             </div>
           </div>
 
@@ -122,7 +122,7 @@ function Sidenav() {
           </div>
         </div>
 
-        <div className="sideNavLink">
+        <div className="sideNavLink" onClick={() => setActive(!isActive)}>
           <div className="sideLinkLeft">
             <img
               src={analytics}
@@ -142,6 +142,14 @@ function Sidenav() {
             />
           </div>
         </div>
+        {isActive && (
+          <div className="dropDown">
+            <p className="dropDownText">Team</p>
+            <p className="dropDownText">Knowledge Base</p>
+            <p className="dropDownText">Training SAM</p>
+            <p className="dropDownText">Help Center</p>
+          </div>
+        )}
       </div>
     </div>
   );

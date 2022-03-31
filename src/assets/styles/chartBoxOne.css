@@ -58,7 +58,7 @@
   font-size: var(--large-font);
   font-weight: bold;
   color: var(--text-black);
-  width: max-content;
+  min-width: max-content;
 }
 
 .tpanelSearchWrapper {
@@ -159,7 +159,7 @@ color: green;
 background-color: var(--green-opacity);
 padding: .3em 1em;
 border-radius: 4px;
-font-size: var(--small-font);
+font-size: var(--x-small-font);
 }
 
 .dot1{
@@ -190,7 +190,7 @@ flex: 4;
 }
 
 .tabXText{
-  font-size: var(--medium-font);
+  font-size: var(--large-font);
   font-weight: bold;
   padding: 0;
   margin: 0;
