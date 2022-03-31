@@ -1,62 +1,150 @@
-import React from 'react';
-import '../assets/styles/sidenav.css';
+import React from "react";
+import "../assets/styles/sidenav.css";
 
-import admin from '../assets/images/admin.svg'
-import knowledge from '../assets/images/knowledge.svg'
-import agentInbox from '../assets/images/agentInbox.svg'
-import helpCenter from '../assets/images/helpCenter.svg'
-import analytics from '../assets/images/analytics.svg'
-import rightArrow from '../assets/images/rightArrow.svg'
+import admin from "../assets/images/admin.svg";
+import knowledge from "../assets/images/knowledge.svg";
+import agentInbox from "../assets/images/agentInbox.svg";
+import helpCenter from "../assets/images/helpCenter.svg";
+import analytics from "../assets/images/analytics.svg";
+import rightArrow from "../assets/images/rightArrow.svg";
 
 function Sidenav() {
   return (
-    <div className='sidenavContainer'>
-      <div className='sideNavWrapper'>
-        <div className='accountWrapper'>
-          <p className='adminName'>Metacare</p>
-          <p className='adminMail'>adeyinka@metacare.com</p>
+    <div className="sidenavContainer">
+      <div className="sideNavWrapper">
+        <div className="accountWrapper">
+          <p className="adminName">Metacare</p>
+          <p className="adminMail">adeyinka@metacare.com</p>
         </div>
 
-        <div className='sideNavLinksWrapper'>
-          <div className='sideNavLink'>
-            <img src={admin} height='15px' alt='adminIcon' className='sideNavIcon' />
-            <p className='sideNavText'>Admin</p>
-            <img src={rightArrow} height='15px' alt='adminIcon' className='rightArrow' />
+        <div className="sideNavLinksWrapper">
+          <div className="sideNavLink">
+            <div className="sideLinkLeft">
+              <img
+                src={admin}
+                height="18px"
+                alt="adminIcon"
+                className="sideNavIcon"
+              />
+              <p className="sideNavText">Admin</p>
+            </div>
+
+            <div>
+              <img
+                src={rightArrow}
+                height="12px"
+                alt="adminIcon"
+                className="rightArrow"
+              />
+            </div>
           </div>
 
-          <div className='sideNavLink'>
-            <img src={knowledge} height='15px' alt='adminIcon' className='sideNavIcon' />
-            <p className='sideNavText'>Knowledge Base</p>
-            <img src={rightArrow} height='15px' alt='adminIcon' className='rightArrow' />
+          <div className="sideNavLink">
+            <div className="sideLinkLeft">
+              <img
+                src={knowledge}
+                height="18px"
+                alt="adminIcon"
+                className="sideNavIcon"
+              />
+              <p className="sideNavText">Knowledge Base</p>
+              </div>
+              <div>
+
+              <img
+                src={rightArrow}
+                height="12px"
+                alt="adminIcon"
+                className="rightArrow"
+                />
+            </div>
           </div>
 
-          <div className='sideNavLink'>
-            <img src={knowledge} height='15px' alt='adminIcon' className='sideNavIcon' />
-            <p className='sideNavText'>Train SAM</p>
-            <img src={rightArrow} height='15px' alt='adminIcon' className='rightArrow' />
+          <div className="sideNavLink">
+            <div className="sideLinkLeft">
+              <img
+                src={knowledge}
+                height="18px"
+                alt="adminIcon"
+                className="sideNavIcon"
+              />
+              <p className="sideNavText">Train SAM</p>
+            </div>
+
+            <div>
+              <img
+                src={rightArrow}
+                height="12px"
+                alt="adminIcon"
+                className="rightArrow"
+              />
+            </div>
           </div>
 
-          <div className='sideNavLink'>
-            <img src={agentInbox} height='15px' alt='adminIcon' className='sideNavIcon' />
-            <p className='sideNavText'>Agent Inbox</p>
-            <img src={rightArrow} height='15px' alt='adminIcon' className='rightArrow' />
+          <div className="sideNavLink">
+            <div className="sideLinkLeft">
+              <img
+                src={agentInbox}
+                height="18px"
+                alt="adminIcon"
+                className="sideNavIcon"
+              />
+              <p className="sideNavText">Agent Inbox</p>
+            </div>
+            <div>
+              <img
+                src={rightArrow}
+                height="12px"
+                alt="adminIcon"
+                className="rightArrow"
+              />
+            </div>
           </div>
 
-          <div className='sideNavLink'>
-            <img src={helpCenter} height='15px' alt='adminIcon' className='sideNavIcon' />
-            <p className='sideNavText'>Help Center</p>
-            <img src={rightArrow} height='15px' alt='adminIcon' className='rightArrow' />
+          <div className="sideNavLink">
+            <div className="sideLinkLeft">
+              <img
+                src={helpCenter}
+                height="18px"
+                alt="adminIcon"
+                className="sideNavIcon"
+              />
+              <p className="sideNavText">Help Center</p>
+            </div>
+            <div>
+              <img
+                src={rightArrow}
+                height="12px"
+                alt="adminIcon"
+                className="rightArrow"
+              />
+            </div>
+          </div>
+        </div>
+
+        <div className="sideNavLink">
+          <div className="sideLinkLeft">
+            <img
+              src={analytics}
+              height="18px"
+              alt="adminIcon"
+              className="sideNavIcon"
+            />
+            <p className="sideNavText">Analytics</p>
           </div>
 
-          <div className='sideNavLink'>
-            <img src={analytics} height='15px' alt='adminIcon' className='sideNavIcon' />
-            <p className='sideNavText'>Analytics</p>
-            <img src={rightArrow} height='15px' alt='adminIcon' className='rightArrow' />
+          <div>
+            <img
+              src={rightArrow}
+              height="12px"
+              alt="adminIcon"
+              className="rightArrow"
+            />
           </div>
         </div>
       </div>
     </div>
-  )
+  );
 }
 
 export default Sidenav;

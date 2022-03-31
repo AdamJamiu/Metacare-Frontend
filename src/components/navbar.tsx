@@ -1,17 +1,22 @@
-import React from 'react';
+import React, {useState} from 'react';
 import '../assets/styles/navbar.css';
 import searchIcon from '../assets/images/searchIcon.svg';
 import notificationIcon from '../assets/images/notification.svg';
 import error from '../assets/images/error.svg';
 import circle from '../assets/images/circle.svg';
 import arrowDown from '../assets/images/arrowDown.svg';
+import menu from "../assets/images/menu.svg"
+
 
 function TopNavbar() {
+    
+    const [toggleMenu, setToggleMenu] = useState(false);
+
     return (
         <>
             <div className='navbar'>
                 <div className='hamburger'>
-                    Ha
+                    <img src={menu} alt="menu" height="30px"/>
                 </div>
                 <div className='searchWrapper'>
                     <input className='navSearch' type="text" placeholder='Ask us any question' />
