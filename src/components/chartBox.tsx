@@ -5,6 +5,7 @@ import searchIcon from "../assets/images/searchIcon.svg";
 import ChartWidgetTwo from "./chartWidgetTwo";
 import ChartWidgetOne from "./chartWidget";
 import ChartWidgetThree from "./chartWidgetThree";
+import ChartWidgetFour from "./chartWidgetFour";
 
 export default function ChartBoxContainer() {
   return (
@@ -14,6 +15,7 @@ export default function ChartBoxContainer() {
         <ChartWidgetOne />
         <ChartWidgetTwo />
         <ChartWidgetThree />
+        <ChartWidgetFour />
       </div>
     </>
   );

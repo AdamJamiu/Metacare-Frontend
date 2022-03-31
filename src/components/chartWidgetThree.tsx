@@ -12,7 +12,7 @@ export default function ChartWidgetThree() {
 
         <div className="timeCardWrap">
           <div className="timeCard">
-            <p className="timeText">Average Response Time</p>
+            <p className="timeText">Average Resolution Rate</p>
             <p className="timeMins">30 Mins</p>
           </div>
           <div className="timeCard">

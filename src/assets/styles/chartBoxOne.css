@@ -124,6 +124,7 @@
   flex-direction: row;
   gap: 1em;
   width: fit-content;
+  margin-bottom: 2em;
   justify-content: center;
   align-items: center;
   /* padding: 1em; */
@@ -175,6 +176,12 @@ font-size: var(--small-font);
 .dot3{
   padding: .5em;
   background-color: #FB6491;
+  border-radius: 4px;
+}
+
+.dot4{
+  padding: .5em;
+  background-color: #07C9E2;
   border-radius: 4px;
 }
 
