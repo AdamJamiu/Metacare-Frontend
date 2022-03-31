@@ -7,6 +7,7 @@ import agentInbox from "../assets/images/agentInbox.svg";
 import helpCenter from "../assets/images/helpCenter.svg";
 import analytics from "../assets/images/analytics.svg";
 import rightArrow from "../assets/images/rightArrow.svg";
+import downArrow from "../assets/images/arrowDown.svg";
 
 function Sidenav() {
   const [isActive, setActive] = useState(false);
@@ -130,7 +131,7 @@ function Sidenav() {
               alt="adminIcon"
               className="sideNavIcon"
             />
-            <p className="sideNavText">Analytics</p>
+            <p className={!isActive ? "sideNavText" : "isActive"}>Analytics</p>
           </div>
 
           <div>
@@ -138,7 +139,7 @@ function Sidenav() {
               src={rightArrow}
               height="12px"
               alt="adminIcon"
-              className="rightArrow"
+              className={!isActive ? "rightArrow" : "downArrow"}
             />
           </div>
         </div>

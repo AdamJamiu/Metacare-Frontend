@@ -52,11 +52,11 @@
   gap: 1em;
 }
 
-.sideNavLink:hover > * {
-  color: var(--sideNav-hover-color);
+.sideNavIcon {
 }
 
-.sideNavIcon {
+.downArrow{
+  transform: rotate(90deg) !important;
 }
 
 .sideNavText {
@@ -64,6 +64,13 @@
   font-size: var(--medium-font);
   min-width: max-content;
   color: var(--primary-color);
+}
+
+.isActive {
+  font-weight: 500;
+  font-size: var(--medium-font);
+  min-width: max-content;
+  color: var(--sideNav-hover-color) !important;
 }
 
 .dropDown {
