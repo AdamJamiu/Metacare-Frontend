@@ -7,7 +7,6 @@ import agentInbox from "../assets/images/agentInbox.svg";
 import helpCenter from "../assets/images/helpCenter.svg";
 import analytics from "../assets/images/analytics.svg";
 import rightArrow from "../assets/images/rightArrow.svg";
-import downArrow from "../assets/images/arrowDown.svg";
 
 function Sidenav() {
   const [isActive, setActive] = useState(false);

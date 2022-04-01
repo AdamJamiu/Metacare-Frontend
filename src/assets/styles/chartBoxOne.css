@@ -109,7 +109,7 @@
   font-size: var(--small-font);
   color: var(--text-black);
   padding: 0.7em;
-  font-weight: bold;
+  font-weight: 500;
   cursor: pointer;
 }
 
