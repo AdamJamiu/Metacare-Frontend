@@ -1,3 +1,4 @@
+import { useState } from "react";
 import "../assets/styles/navbar.css";
 import searchIcon from "../assets/images/searchIcon.svg";
 import notificationIcon from "../assets/images/notification.svg";
@@ -7,11 +8,18 @@ import arrowDown from "../assets/images/arrowDown.svg";
 import menu from "../assets/images/menu.svg";
 
 function TopNavbar() {
+  const [isOpen, setOpen] = useState(false);
   return (
     <>
+    
       <div className="navbar">
         <div className="hamburger">
-          <img src={menu} alt="menu" height="30px" />
+          <img
+            src={menu}
+            alt="menu"
+            height="30px"
+            onClick={(e) => setOpen(true)}
+          />
         </div>
         <div className="searchWrapper">
           <input

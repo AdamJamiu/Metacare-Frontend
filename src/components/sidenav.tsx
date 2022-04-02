@@ -9,7 +9,7 @@ import analytics from "../assets/images/analytics.svg";
 import rightArrow from "../assets/images/rightArrow.svg";
 
 function Sidenav() {
-  const [isActive, setActive] = useState(false);
+  const [isActive, setActive] = useState(true);
   return (
     <div className="sidenavContainer">
       <div className="sideNavWrapper">
